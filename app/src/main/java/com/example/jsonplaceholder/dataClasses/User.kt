@@ -1,4 +1,4 @@
-package com.example.jsonplaceholder
+package com.example.jsonplaceholder.dataClasses
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
