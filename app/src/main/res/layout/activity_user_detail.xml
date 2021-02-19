@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="@dimen/paddingSmall">
@@ -53,10 +54,60 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="CatchPhrase" />
+
         <TextView
             android:id="@+id/addressText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Albums:" />
+
+        <TextView
+            android:id="@+id/albumTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 1:" />
+
+        <TextView
+            android:id="@+id/albumTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 2:" />
+
+        <TextView
+            android:id="@+id/albumTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 3:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Posts:" />
+
+        <TextView
+            android:id="@+id/postTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 1:" />
+
+        <TextView
+            android:id="@+id/postTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 2:" />
+
+        <TextView
+            android:id="@+id/postTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 3:" />
+
     </LinearLayout>
 </layout>
